@@ -1,2 +1,2 @@
-# BugScoreKeeper
-The Keeper Of Bugs
+# Testing my skills with angular
+
