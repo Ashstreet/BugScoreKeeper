@@ -1,0 +1,24 @@
+{
+  "name": "skillstest",
+  "version": "1.0.0",
+  "description": "skills practice",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashstreet/Skills-Test.git"
+  },
+  "author": "Ashley Street",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ashstreet/Skills-Test/issues"
+  },
+  "homepage": "https://github.com/Ashstreet/Skills-Test#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
