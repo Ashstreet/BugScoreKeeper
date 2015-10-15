@@ -1,1 +1,1 @@
-{"version":3,"sources":["small.scss"],"names":[],"mappings":"AAAA,IAAI,CAAC;EACJ,KAAK,EAAE,IAAK,GADP","file":"small.css","sourcesContent":["body {\n\tcolor: blue;\n}"],"sourceRoot":"/source/"}
+{"version":3,"sources":["small.scss"],"names":[],"mappings":"AAAA,MAAM,MAAD,MAAM,MAAM,SAAS,EAAE,KAAK;EAC7B,IAAI,CAAC;IACD,gBAAgB,EAAE,SAAU,GAD1B","file":"small.css","sourcesContent":["@media only screen and (max-width: 568px) {\n    body {\n        background-color: lightblue;\n    }\n}"],"sourceRoot":"/source/"}

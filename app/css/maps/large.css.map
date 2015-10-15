@@ -1,0 +1,1 @@
+{"version":3,"sources":["large.scss"],"names":[],"mappings":"AAAA,IAAI,CAAC;EACJ,gBAAgB,EAAE,UAAW,GADxB","file":"large.css","sourcesContent":["body {\n\tbackground-color: lightgreen;\n}"],"sourceRoot":"/source/"}

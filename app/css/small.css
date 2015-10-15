@@ -1,4 +1,5 @@
-body {
-  color: blue; }
+@media only screen and (max-width: 568px) {
+  body {
+    background-color: lightblue; } }
 
 /*# sourceMappingURL=maps/small.css.map */
