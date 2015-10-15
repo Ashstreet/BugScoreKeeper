@@ -1,21 +1,26 @@
 'use strict'
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var sourcemaps = require('gulp-sourcemaps');
+var gulp = require('gulp'),
+	sass = require('gulp-sass'),
+	sourcemaps = require('gulp-sourcemaps'),
+	notify = require('gulp-notify');
+
+function log(arg) {
+	console.log(arg);
+}
 
 gulp.task('sass', function() {
-	gulp.src('./app/sass/**/*.scss')
+	gulp.src('./app/sass/*.scss')
 		.pipe(sourcemaps.init())
 		.pipe(sass().on('error', sass.logError))
-		.pipe(sourcemaps.write('./app/maps'))
-		.pipe(gulp.dest('./app/styles'));
+		.pipe(sourcemaps.write('./maps'))
+		.pipe(gulp.dest('./app/css'))
+		.pipe(notify("Sass Task Complete"));
 });
 
+//Watch Tasks
 gulp.task('sass:watch', function () {
-	gulp.watch('./app/scss/*.scss', [sass]);
+	gulp.watch('./app/sass/**/*.scss', ['sass']);
 });
 
-gulp.task('default', function() {
-  // place code for your default task here
-});
+gulp.task('default', ['sass:watch']);
