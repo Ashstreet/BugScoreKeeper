@@ -1,5 +1,9 @@
+@import url("_variables.scss");
+@import url("medium.css");
 @media only screen and (max-width: 568px) {
-  body {
-    background-color: lightblue; } }
+  .nav-wrapper {
+    background-color: #1EBAFF; }
+  .chip {
+    background-color: #999999; } }
 
 /*# sourceMappingURL=maps/small.css.map */

@@ -1,5 +1,6 @@
+@import url('_variables.scss');
 @media only screen and (max-width: 568px) {
-    body {
-        background-color: lightblue;
-    }
+	.nav-wrapper {
+		background-color: $color-blue-light;
+	}
 }

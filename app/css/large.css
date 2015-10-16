@@ -1,4 +1,12 @@
-body {
-  background-color: lightgreen; }
+@import url("_variables.scss");
+a {
+  display: inline-block;
+  padding: 0 0 0 5px; }
+
+.gen-padding {
+  padding: 0 0 0 15px; }
+
+.fa-hand-peace-o:before {
+  padding-right: 3px; }
 
 /*# sourceMappingURL=maps/large.css.map */

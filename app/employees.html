@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="import" href="components/header/head.html">
+</head>
+
+	<nav>
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="Employees.html">Employee's</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+
+	<div ng-app="myApp">
+		<div  ng-controller="EmployeeListCtrl">
+		<ul>
+	 		<li ng-repeat="employee in employees">
+				<span class="fa fa-hand-peace-o gen-padding">{{employee.name}}</span>
+				<p>{{employee.role}}</p>
+			</li>
+		</ul>
+	  </div>
+	</div>
+</html>
