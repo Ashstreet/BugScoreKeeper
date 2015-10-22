@@ -1,9 +1,26 @@
-@import url("_variables.scss");
-@import url("medium.css");
+@font-face {
+  font-family: 'Fancy';
+  src: url("../fonts/Pacifico.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular';
+  src: url("../fonts/Enigma.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Bold';
+  src: url("../fonts/EnigmaB_2.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
 @media only screen and (max-width: 568px) {
-  .nav-wrapper {
-    background-color: #1EBAFF; }
-  .chip {
-    background-color: #999999; } }
+  .employeecard {
+    padding: 15px 15px;
+    height: 150px;
+    width: 25%;
+    background-color: #fdca40; } }
 
 /*# sourceMappingURL=maps/small.css.map */

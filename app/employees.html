@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="import" href="components/header/head.html">
+	<link rel="stylesheet" type="text/css" href="css/compiled/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script src="../../js/controllers.js"></script>
 </head>
 
 	<nav>
@@ -15,11 +20,13 @@
   </nav>
 
 	<div ng-app="myApp">
-		<div  ng-controller="EmployeeListCtrl">
+		<div class="card-wrapper" ng-controller="EmployeeListCtrl">
 		<ul>
-	 		<li ng-repeat="employee in employees">
-				<span class="fa fa-hand-peace-o gen-padding">{{employee.name}}</span>
+	 		<li class="employeecard" ng-repeat="employee in employees">
+				<span>{{employee.name}}<i class="fa fa-laptop"></i></span>
 				<p>{{employee.role}}</p>
+				<p>{{employee.level}}</p>
+				<p>{{employee.department}}</p>
 			</li>
 		</ul>
 	  </div>

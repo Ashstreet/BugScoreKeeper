@@ -1,6 +1,43 @@
+@font-face {
+	font-family: 'Fancy';
+	src: url("../fonts/Pacifico.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Regular';
+	src: url("../fonts/Enigma.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bold';
+	src: url("../fonts/EnigmaB_2.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
 //COLOURS
-$color-blue-light: #1ebaff;
+$color-blue-light: #33a1fd;
+$color-blue-dark: #2167ff;
+$color-yellow: #fdca40;
+$color-dark-grey: #31393c;
+$color-orange: #f79824;
+
+//Widths
+$content-max: 1200px;
+$content-full-bleed: 1500px;
+
+//Spacing
+$component-padding: 15px 15px;
+
 
 //Borders
+$border-radius: 100%;
+
 //Fonts
-$font-normal: 
+$font-fancy: 'Fancy', Helvetica, Arial, sans-serif;
+$font-regular: 'Regular', Helvetica, Arial, sans-serif;
+$font-bold: 'Bold', Helvetica, Arial, sans-serif;

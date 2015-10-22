@@ -1,12 +1,40 @@
-@import url("_variables.scss");
-a {
+@font-face {
+  font-family: 'Fancy';
+  src: url("../fonts/Pacifico.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular';
+  src: url("../fonts/Enigma.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Bold';
+  src: url("../fonts/EnigmaB_2.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+.nav-wrapper {
+  background-color: #33a1fd; }
+
+.card-wrapper ul li span {
+  font-family: "Fancy", Helvetica, Arial, sans-serif;
+  font-size: 1.28571em; }
+
+.employeecard {
   display: inline-block;
-  padding: 0 0 0 5px; }
+  padding: 15px 15px;
+  margin: 0 5px;
+  width: calc(100 / 4);
+  background-color: #fdca40;
+  border: 1px solid #31393c;
+  font-family: "Regular", Helvetica, Arial, sans-serif;
+  line-height: 0.3; }
 
-.gen-padding {
-  padding: 0 0 0 15px; }
-
-.fa-hand-peace-o:before {
-  padding-right: 3px; }
+.fa-laptop {
+  padding: 0 15px;
+  color: #2167ff; }
 
 /*# sourceMappingURL=maps/large.css.map */

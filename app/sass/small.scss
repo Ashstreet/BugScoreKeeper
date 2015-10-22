@@ -1,6 +1,11 @@
-@import url('_variables.scss');
+@import "_variables.scss";
+@import "_mixins.scss";
+
 @media only screen and (max-width: 568px) {
-	.nav-wrapper {
-		background-color: $color-blue-light;
+	.employeecard {
+		padding: $component-padding;
+		height: 150px;
+		width: 25%;
+		background-color: $color-yellow;
 	}
 }

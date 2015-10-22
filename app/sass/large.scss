@@ -1,15 +1,31 @@
-@import url('_variables.scss');
-a {
-	display: inline-block;
-	padding: 0 0 0 5px;
-}
+@import "_variables.scss";
+@import "_mixins.scss";
 
-.gen-padding {
-	padding: 0 0 0 15px;
-}
-
-.fa-hand-peace-o {
-	&:before {
-		padding-right: 3px;
+	.nav-wrapper {
+		background-color: $color-blue-light;
 	}
-}
+
+	.card-wrapper {
+		ul li {
+			span {
+				font-family: $font-fancy;
+				font-size: em(18);
+			}
+		}
+	}
+
+	.employeecard {
+		display: inline-block;
+		padding: $component-padding;
+		margin: 0 5px;
+		width: calc(100 / 4);
+		background-color: $color-yellow;
+		border: 1px solid $color-dark-grey;
+		font-family: $font-regular;
+		line-height: 0.3;
+	}
+
+	.fa-laptop {
+		padding: 0 15px;
+		color: $color-blue-dark;
+	}
