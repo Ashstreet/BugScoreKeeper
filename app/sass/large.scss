@@ -23,6 +23,15 @@
 		border: 1px solid $color-dark-grey;
 		font-family: $font-regular;
 		line-height: 0.3;
+
+		span {
+			color: $color-blue-dark;
+		}
+
+		img {
+			width: 150px;
+			height: 150px;
+		}
 	}
 
 	.fa-laptop {

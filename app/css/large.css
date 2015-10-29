@@ -32,6 +32,11 @@
   border: 1px solid #31393c;
   font-family: "Regular", Helvetica, Arial, sans-serif;
   line-height: 0.3; }
+  .employeecard span {
+    color: #2167ff; }
+  .employeecard img {
+    width: 150px;
+    height: 150px; }
 
 .fa-laptop {
   padding: 0 15px;

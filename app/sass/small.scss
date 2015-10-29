@@ -2,10 +2,24 @@
 @import "_mixins.scss";
 
 @media only screen and (max-width: 568px) {
+	.hide-on-med-and-down {
+		display: inline-block;
+	}
 	.employeecard {
 		padding: $component-padding;
+		margin: $component-margin;
 		height: 150px;
-		width: 25%;
+		width: 97%;
 		background-color: $color-yellow;
+		line-height: 0.8;
+
+	img {
+		height: 130px;
+		width: 150px;
+		float: right;
+		position: relative;
+		top: em(-110);
+		border-radius: $border-radius;
+		border: 1px solid $color-white;
 	}
 }

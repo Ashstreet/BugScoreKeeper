@@ -18,5 +18,27 @@
       </ul>
     </div>
   </nav>
+
+<div ng-app="myApp">
+  <div class="search-bar">
+    Search: <input ng-model="query">
+    Sort By: 
+    <select ng-model="query">
+      <option value="firstName">Alphabetical</option>
+      <option value="department">Department</option>
+    </select>
+  </div>
+    <div class="card-wrapper" ng-controller="EmployeeListCtrl">
+    <ul>
+      <li class="employeecard" ng-repeat="employee in employees | filter:query | orderBy:orderProp">
+        <span>{{employee.firstName}} {{employee.lastName}}</span>
+        <p>{{employee.role}}</p>
+        <p>{{employee.level}}</p>
+        <p>{{employee.department}}</p>
+        <img class="employeephoto" ng-src="{{employee.employeePicture}}" />
+      </li>
+    </ul>
+    </div>
+  </div>
 </body>
 </html>

@@ -1,0 +1,92 @@
+[
+	{
+		"id": 1,
+		"firstName": "Ashley",
+		"lastName": "Street",
+		"jobTitle": "Interface Developer",
+		"careerLevel": "Graduate",
+		"department":"Technology",
+		"employeePicture":"../img/Ash.jpg"
+	},
+	{
+		"id": 2,
+		"firstName": "Gary",
+		"lastName": "Wong",
+		"jobTitle": "Automation Tester",
+		"careerLevel": "Midweight",
+		"department": "Technology",
+		"employeePicture": "../img/Pug.jpeg"
+	},
+	{
+		"id": 3,
+		"firstName": "Joe",
+		"lastName": "Bloggs",
+		"jobTitle": "Interface Developer",
+		"careerLevel": "Senior",
+		"department": "Technology",
+		"employeePicture": "#"
+	},
+	{
+		"id": 4,
+		"firstName": "Stan",
+		"lastName": "Smith",
+		"jobTitle": "Project Manager",
+		"careerLevel": "Director",
+		"department": "Technology",
+		"employeePicture": "#"
+	},
+	{
+		"id": 5,
+		"firstName": "Bla",
+		"lastName": "Jones",
+		"jobTitle": "Accounts Executive",
+		"careerLevel": "Graduate",
+		"department": "Accounts",
+		"employeePicture": "#"
+	},
+	{
+		"id": 6,
+		"firstName": "Laura",
+		"lastName": "Smith",
+		"jobTitle": "Payroll",
+		"careerLevel": "Midweight",
+		"department": "Human Resources",
+		"employeePicture": "#"
+	},
+	{
+		"id": 7,
+		"firstName": "Rebecca",
+		"lastName": "White",
+		"jobTitle": "Application Developer",
+		"careerLevel": "Graduate",
+		"department": "Technology",
+		"employeePicture": "#"
+	},
+	{
+		"id": 8,
+		"firstName": "Donald",
+		"lastName": "Duck",
+		"jobTitle": "Training Manager",
+		"careerLevel": "Senior",
+		"department": "Creative",
+		"employeePicture": "#"
+	},
+	{
+		"id": 9,
+		"firstName": "Mickey",
+		"lastName": "Mouse",
+		"jobTitle": "Product Manager",
+		"careerLevel": "Senior",
+		"department": "Managed Services",
+		"employeePicture": "#"
+	},
+	{
+		"id": 10,
+		"firstName": "Minnie",
+		"lastName": "Mouse",
+		"jobTitle": "Product Manager",
+		"careerLevel": "Director",
+		"department": "Managed Services",
+		"employeePicture": "#"
+	}
+]

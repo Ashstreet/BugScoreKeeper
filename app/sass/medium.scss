@@ -2,5 +2,14 @@
 @import "_mixins.scss";
 
 @media only screen and (max-width: 1024px) {
+	.employeecard {
+		width: calc(100% / 3);
+		width: 32%;
+		margin: 1px;
 
+		img {
+			height: 200px;
+			width: 186px;
+		}
+	}
 }

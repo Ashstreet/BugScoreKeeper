@@ -17,10 +17,22 @@
   font-style: normal; }
 
 @media only screen and (max-width: 568px) {
+  .hide-on-med-and-down {
+    display: inline-block; }
   .employeecard {
     padding: 15px 15px;
+    margin: 10px 5px;
     height: 150px;
-    width: 25%;
-    background-color: #fdca40; } }
+    width: 97%;
+    background-color: #fdca40;
+    line-height: 0.8; }
+  .employeephoto {
+    height: 130px;
+    width: 150px;
+    float: right;
+    position: relative;
+    top: -7.85714em;
+    border-radius: 100%;
+    border: 1px solid #ffffff; } }
 
 /*# sourceMappingURL=maps/small.css.map */
